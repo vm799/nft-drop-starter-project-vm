@@ -1,4 +1,14 @@
 # buildspace Solana NFT Drop Project
+MY KEY LEARNINGS:
+
+METAPLEX: Provides a storefront that has integrated structural building that showcases NFTS with tools and standards.
+
+CANDY MACHINE v2: Helps the distribution of the NFT collection, generate an unpredictable mint index and prevents
+- mutex: "a mutaully exclusive primitive useful fo shared data" (https://doc.rust-lang.org/std/sync/struct.Mutex.html)
+  
+- atomic transaction: an indivisible and irreducible series of database operations such that either all occurs, or nothing occurs
+ (https://en.wikipedia.org/wiki/Atomicity_(database_systems))
+
 ### Welcome 👋
 To get started with this course, clone this repo and follow these commands:
 
